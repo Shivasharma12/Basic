@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- Form 1 -->
+     <h1>Contact Details</h1>
+
+     <form action="">
+        <fieldset border="5" width="50">
+            <legend>Please enter your personal details</legend>
+            <label>First name:*<input type="text" placeholder="Enter First Name"required</label><br><br>
+            <label>Last name:*<input type="text" placeholder="Enter Last Name" required></label><br><br>
+            <label>Street address:<input type="text" placeholder="Enter Street address"></label><br><br>
+            <label>Town/city:<input type="text" placeholder="Enter city name"></label><br><br>
+            <label>Postcode/Zip:<input type="tel" placeholder="Enter Zip no."></label><br><br>
+            <label>Telephone:<input type="tel" placeholder="Enter Telephone no."></label><br><br>
+            
+            <label>Email address:<input type="email" placeholder="Enter Email"required></label><br>
+           <p>Field marked with * are required</p>
+            <input type="button" value="Submit">
+            </fieldset>
+        </form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form action=""><fieldset>
+            <h1>Welcome to Mr. Rakoczy's Popcorn Sales Site Extravaganza</h1>
+            <label for="Buyer">Buyer's Name:<input type="text"></label><br><br>
+            <label for="address">Street Address:<input type="text"></label><br><br>
+            <label for="address">City, Province, Postal Code:<input type="text" disabled></label><br><br>
+            <table border="1">
+                <thead><th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th></thead>
+                <tbody>
+                    <tr>
+                        <td>Unpopped popcorn (1 lb)</td>
+                        <td>$3.00</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Caramel popcorn (2 lb canister)</td>
+                        <td>$3.50</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Caramel null popcorn (2 lb canister)</td>
+                        <td>$4.50</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Toffee Nut popcorn (2 lb canister)</td>
+                        <td>$5.00</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br><br>
+            <h3>Payment Method</h3>
+            <input type="radio" id="visa" name="payment" value="visa">
+            <label for="visa">Visa</label><br>
+            <input type="radio" id="mastercard" name="payment" value="mastercard">
+            <label for="mastercard">Master Card</label><br>
+            <input type="radio" id="discover" name="payment" value="discover">
+            <label for="discover">Discover</label><br>
+            <input type="radio" id="check" name="payment" value="check">
+            <label for="check">Check</label><br><br><br>
+            <input type="button" value="Submit order">
+        </fieldset></form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form>
+            <fieldset bgcolor="yellow">
+            <h1>Employee Registration Form</h1>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <tr>
+                    <label for="name">First Name:<input type="text" placeholder="Enter First name"></label>
+                    <label for="name">Last Name:<input type="text" placeholder="Enter last name"></label>
+                    <br><br>
+                    <label for="email">Email:<input type="email" placeholder="Enter Email"></label>
+                    <label for="phone">Phone:<input type="tel" placeholder="Enter Phone Number"></label>
+                    <br><br>
+                    <label for="gender">Gender:<input type="radio"</label>
+                    <label for="male">Male<input type="radio" id="Male" name="Male" value="Male"></label>
+                    <label for="female">Female<input type="radio" id="Female" name="FeMale" value="FeMale"></label>
+                    <label for="female">Trans<input type="radio" id="trans" name="trans" value="FeMale"></label>
+                    <label for="female">Prefer not to say<input type="radio" id="FeMale" name="FeMale" value="FeMale"></label><br>
+                    <br>
+                    <label for="birth">Date of Birth: <input type = "date"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Address Details</legend>
+                <label for="city">City: <input type="text"></label>
+                <label for="State">State: <input type="text"></label><br><br> 
+                <label for="address" align = "center">Address:</label>
+                <textarea id="address" name="address" rows="4" cols="50"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Professional Information</legend>
+                <label for="status">Marrital Status: <select name="Single" id="">
+                    <option value="Single">Single</option>
+                    <option value="Maried">Maried</option>
+                </select></label>
+                <label for="status">Education: <select name="Education" id="">
+                    <option value="">High School</option>
+                    <option value="">Intermidate</option>
+                    <option value="">Collge</option>
+                </select></label><br><br>
+                <label for="status">Experience: <select name="Experience" id="">
+                    <option value="">Fresher</option>
+                    <option value="">1 Year</option>
+                    <option value="">other</option>
+                </select></label>
+                <label for="status">Position: <select name="Position" id="">
+                    <option value="">Intern</option>
+                    <option value="">Employee</option>
+                </select></label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label for="comany">Rate our Comapany: <input type="range"></label><br><br>
+                <label for="upload">upload Resume: <input type="file"</label>
+            </fieldset>
+            <input type="button" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+        </form>
+</body>
+</html>
